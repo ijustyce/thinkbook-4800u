@@ -27,5 +27,6 @@ EFI-INSTALL 是安装时,usb中使用的 opencore,之所以区分,是因为若�
 
 ## 参考信息
 [创建启动盘](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#setting-up-the-installer)  
-[ryzen-hackintosh](https://github.com/mikigal/ryzen-hackintosh)
-[异常问题排查](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/extended/kernel-issues.html#stuck-on-eb-log-exitbs-start)
+[ryzen-hackintosh](https://github.com/mikigal/ryzen-hackintosh)  
+[异常问题排查](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/extended/kernel-issues.html#stuck-on-eb-log-exitbs-start)  
+[Lenovo-Yoga-14S-4800U-hackintosh](https://github.com/whitescent/Lenovo-Yoga-14S-4800U-hackintosh)
