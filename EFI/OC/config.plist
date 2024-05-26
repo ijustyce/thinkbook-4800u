@@ -32,30 +32,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-HPET.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-HPET.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-NVME-DISABLE.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-NVME-DISABLE.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-PLUG-ALT.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-PLUG-ALT.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-PNLF.aml</string>
 				<key>Enabled</key>
 				<true/>
@@ -77,14 +53,6 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-USBX.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-XOSI.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-XOSI.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -307,24 +275,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/NootedRed</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>NullEthernet.kext</string>
-				<key>Comment</key>
-				<string>NullEthernet.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/NullEthernet</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1488,7 +1438,7 @@
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
-			<integer>67</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Entries</key>
 		<array/>
@@ -1515,7 +1465,7 @@
 			<key>PasswordSalt</key>
 			<data></data>
 			<key>ScanPolicy</key>
-			<integer>0</integer>
+			<integer>983299</integer>
 			<key>SecureBootModel</key>
 			<string>Default</string>
 			<key>Vault</key>
