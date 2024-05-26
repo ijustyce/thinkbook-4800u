@@ -34,3 +34,6 @@ EFI-INSTALL 是安装时,usb中使用的 opencore,之所以区分,是因为若�
 ## 已知问题与解决
 ### 部分网页会画屏
 比如 [VoodooI2C For Mac v2.8 黑苹果触摸板驱动](https://osx.cx/voodooi2c-for-mac-v2-8.html) 就会画屏,可禁用浏览器硬件加速,禁用后正常
+### 使用快捷键替代触摸板
+1. 使用 ctrl + 左右箭头来切换工作空间,类似白苹果的三指触摸;  
+2. 使用 win + tab 来切换应用程序;
