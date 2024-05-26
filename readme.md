@@ -29,7 +29,8 @@ EFI-INSTALL 是安装时,usb中使用的 opencore,之所以区分,是因为若�
 [创建启动盘](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#setting-up-the-installer)  
 [ryzen-hackintosh](https://github.com/mikigal/ryzen-hackintosh)  
 [异常问题排查](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/extended/kernel-issues.html#stuck-on-eb-log-exitbs-start)  
-[Lenovo-Yoga-14S-4800U-hackintosh](https://github.com/whitescent/Lenovo-Yoga-14S-4800U-hackintosh)
+[Lenovo-Yoga-14S-4800U-hackintosh](https://github.com/whitescent/Lenovo-Yoga-14S-4800U-hackintosh)  
+[mac 使用手册](https://support.apple.com/zh-cn/guide/mac-help/mh14112/mac)
 
 ## 已知问题与解决
 ### 部分网页会画屏
