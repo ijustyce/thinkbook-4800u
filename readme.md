@@ -30,3 +30,7 @@ EFI-INSTALL 是安装时,usb中使用的 opencore,之所以区分,是因为若�
 [ryzen-hackintosh](https://github.com/mikigal/ryzen-hackintosh)  
 [异常问题排查](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/extended/kernel-issues.html#stuck-on-eb-log-exitbs-start)  
 [Lenovo-Yoga-14S-4800U-hackintosh](https://github.com/whitescent/Lenovo-Yoga-14S-4800U-hackintosh)
+
+## 已知问题与解决
+### 部分网页会画屏
+比如 [VoodooI2C For Mac v2.8 黑苹果触摸板驱动](https://osx.cx/voodooi2c-for-mac-v2-8.html) 就会画屏,可禁用浏览器硬件加速,禁用后正常
