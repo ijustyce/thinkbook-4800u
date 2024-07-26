@@ -30,11 +30,9 @@ EFI-INSTALL 是安装时,usb中使用的 opencore,之所以区分,是因为若�
 [ryzen-hackintosh](https://github.com/mikigal/ryzen-hackintosh)  
 [异常问题排查](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/extended/kernel-issues.html#stuck-on-eb-log-exitbs-start)  
 [Lenovo-Yoga-14S-4800U-hackintosh](https://github.com/whitescent/Lenovo-Yoga-14S-4800U-hackintosh)  
-[mac 使用手册](https://support.apple.com/zh-cn/guide/mac-help/mh14112/mac)
+[mac 使用手册](https://support.apple.com/zh-cn/guide/mac-help/mh14112/mac)  
+[硬件加速解决](https://github.com/ChefKissInc/NootedRed/issues/158#issuecomment-1848968492)  
+[amd 核显问题解决了](https://bbs.pcbeta.com/viewthread-1988230-3-1.html)
 
-## 已知问题与解决
-### 部分网页会画屏
-比如 [VoodooI2C For Mac v2.8 黑苹果触摸板驱动](https://osx.cx/voodooi2c-for-mac-v2-8.html) 就会画屏,可禁用浏览器硬件加速,禁用后正常
-### 使用快捷键替代触摸板
-1. 使用 ctrl + 左右箭头来切换工作空间,类似白苹果的三指触摸;  
-2. 使用 win + tab 来切换应用程序;
+## 注意事项
+解决硬件加速需要 BFixup.kext 且需要放在 Lilu 下面 NootedRed 上面，这里指的是 config.plist 文件里面，默认的顺序有误，自己手动调整下！
