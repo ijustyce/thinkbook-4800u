@@ -31,8 +31,8 @@ EFI-INSTALL 是安装时,usb中使用的 opencore,之所以区分,是因为若�
 [异常问题排查](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/extended/kernel-issues.html#stuck-on-eb-log-exitbs-start)  
 [Lenovo-Yoga-14S-4800U-hackintosh](https://github.com/whitescent/Lenovo-Yoga-14S-4800U-hackintosh)  
 [mac 使用手册](https://support.apple.com/zh-cn/guide/mac-help/mh14112/mac)  
-[硬件加速解决](https://github.com/ChefKissInc/NootedRed/issues/158#issuecomment-1848968492)  
-[amd 核显问题解决了](https://bbs.pcbeta.com/viewthread-1988230-3-1.html)
+[NootedRed 最新OpenGL解决方案](https://bbs.pcbeta.com/viewthread-2013530-1-1.html)
 
 ## 注意事项
-解决硬件加速需要 BFixup.kext 且需要放在 Lilu 下面 NootedRed 上面，这里指的是 config.plist 文件里面，默认的顺序有误，自己手动调整下！
+解决硬件加速，我使用了 [AMDHelper](https://github.com/alvindimas05/AMDHelper)  
+亲测好用，比之前的方案更好！
